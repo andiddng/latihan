@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">latihan</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="layar_1">Layar 1</string>
+    <string name="layar_2">layar 2</string>
+</resources>

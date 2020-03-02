@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigas"
+    app:startDestination="@id/menuUtama">
+
+    <fragment
+        android:id="@+id/menuUtama"
+        android:name="com.example.latihan.MenuUtama"
+        android:label="MenuUtama" >
+        <action
+            android:id="@+id/action_menuUtama_to_layar2"
+            app:destination="@id/layar2" />
+        <action
+            android:id="@+id/action_menuUtama_to_layar1"
+            app:destination="@id/layar1" />
+    </fragment>
+    <fragment
+        android:id="@+id/layar1"
+        android:name="com.example.latihan.layar1"
+        android:label="layar1" />
+    <fragment
+        android:id="@+id/layar2"
+        android:name="com.example.latihan.layar2"
+        android:label="layar2" />
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.example.latihan.AboutFragment"
+        android:label="fragment_about"
+        tools:layout="@layout/fragment_about" />
+</navigation>
